@@ -1,0 +1,1219 @@
+Database ready: C:\Users\Lenovo\Desktop\santa123\modernized\school.db
+============================================================
+  SANTAPRIS SCHOOL SYSTEM  —  LAN / Wi-Fi Edition (modernized)
+============================================================
+  Local    :  http://localhost:8000
+  Network  :  http://192.168.137.187:8000
+============================================================
+  Any device on the same LAN or Wi-Fi can use any
+  Network address above — no internet required.
+============================================================
+  Admin login:  Martinsmarta  /  Luvahama1995!
+  Teacher login: Teacher  /  Teacher123
+============================================================
+  ✓ Database NEVER deleted on restart
+  ✓ All data saved to school.db on this computer
+  ✓ Every device on the same Wi-Fi/LAN can connect
+  ✓ Backup restore MERGES — existing data is never lost
+  ✓ Real-time sync across all connected devices
+  ✓ Register new users at  /api/register  (POST)
+============================================================
+INFO:     127.0.0.1:63745 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63745 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:63745 - "GET /app HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63756 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63756 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:63756 - "GET /app HTTP/1.1" 200 OK
+[2026-09-19 00:49:52]  10.32.0.114      ?                   sse-connect             clients=1
+INFO:     10.32.0.114:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63769 - "GET /static/js/05-app-core.js HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/05-app-core.js HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /app HTTP/1.1" 307 Temporary Redirect
+INFO:     10.32.2.161:0 - "GET /app HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/css/00-base.css?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/05-app-core.js?v=1789768123 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/css/01-main.css?v=1789722973 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/css/06-score-modal-mobile.css?v=1789728037 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/00-pdf-jspdf-shim.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/css/05-polish.css?v=1789678440 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/css/04-mobile.css?v=1789722982 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/04-vendor-docx.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/01-pdf-autotable-guard.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/03-vendor-sheetjs-xlsx.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/css/02-anim-extra.css?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/08-duty-rota.js?v=1788118204 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/css/03-duty-rota.css?v=1788116922 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/12-subjects-hub.js?v=1788375884 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/15-exam-registry.js?v=1789717683 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/09-tt-constraints.js?v=1789332270 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/07-app-main.js?v=1789383767 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/06-app-marksheet-modal.js?v=1789705182 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/14-ui-extras.js?v=1789724254 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/11-teachers-hub.js?v=1789322121 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/13-nav-groups.js?v=1789538210 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/16-polish.js?v=1789678457 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /static/js/10-tt-advanced.js?v=1789408880 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/session HTTP/1.1" 401 Unauthorized
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 200 OK
+[2026-09-19 00:52:18]  10.32.2.161      ?                   sse-connect             clients=2
+INFO:     10.32.2.161:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /app HTTP/1.1" 200 OK
+[2026-09-19 00:54:49]  10.32.0.114      ?                   sse-disconnect          clients=1
+INFO:     10.32.0.114:0 - "GET /static/js/05-app-core.js?v=1789768123 HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /static/css/00-base.css?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/04-vendor-docx.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/css/04-mobile.css?v=1789722982 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/css/06-score-modal-mobile.css?v=1789728037 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/css/01-main.css?v=1789722973 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/css/05-polish.css?v=1789678440 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/00-pdf-jspdf-shim.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/01-pdf-autotable-guard.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/02-vendor-sheetjs-xlsx.js?v=1788089272 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/14-ui-extras.js?v=1789724254 HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /static/js/03-vendor-sheetjs-xlsx.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/css/03-duty-rota.css?v=1788116922 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/15-exam-registry.js?v=1789717683 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/css/02-anim-extra.css?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/11-teachers-hub.js?v=1789322121 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/07-app-main.js?v=1789383767 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/13-nav-groups.js?v=1789538210 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/08-duty-rota.js?v=1788118204 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/09-tt-constraints.js?v=1789332270 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/16-polish.js?v=1789678457 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/06-app-marksheet-modal.js?v=1789705182 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/10-tt-advanced.js?v=1789408880 HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /static/js/12-subjects-hub.js?v=1788375884 HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/session HTTP/1.1" 401 Unauthorized
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+[2026-09-19 00:54:54]  10.32.0.114      ?                   sse-connect             clients=2
+INFO:     10.32.0.114:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 00:55:50]  10.32.2.161      ?                   sse-disconnect          clients=1
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 00:58:44]  10.32.0.114      ?                   sse-disconnect          clients=0
+INFO:     127.0.0.1:63936 - "GET /health HTTP/1.1" 200 OK
+[2026-09-19 01:03:50]  10.32.0.114      ?                   sse-connect             clients=1
+INFO:     10.32.0.114:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /app HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /static/css/06-score-modal-mobile.css?v=1789728037 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/04-mobile.css?v=1789722982 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/00-pdf-jspdf-shim.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/04-vendor-docx.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/03-vendor-sheetjs-xlsx.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/02-anim-extra.css?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/03-duty-rota.css?v=1788116922 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/09-tt-constraints.js?v=1789332270 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/08-duty-rota.js?v=1788118204 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/12-subjects-hub.js?v=1788375884 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/15-exam-registry.js?v=1789717683 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/16-polish.js?v=1789678457 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/01-main.css?v=1789722973 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/00-base.css?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/05-polish.css?v=1789678440 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/01-pdf-autotable-guard.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/05-app-core.js?v=1789768123 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/02-vendor-sheetjs-xlsx.js?v=1788089272 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/06-app-marksheet-modal.js?v=1789705182 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/10-tt-advanced.js?v=1789408880 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/14-ui-extras.js?v=1789724254 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/11-teachers-hub.js?v=1789322121 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/13-nav-groups.js?v=1789538210 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/07-app-main.js?v=1789383767 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/session HTTP/1.1" 401 Unauthorized
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+[2026-09-19 01:03:54]  10.32.1.55       ?                   sse-connect             clients=2
+INFO:     10.32.1.55:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /app?r=3 HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /static/css/00-base.css?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/04-mobile.css?v=1789722982 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/01-main.css?v=1789722973 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/01-pdf-autotable-guard.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/05-polish.css?v=1789678440 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/00-pdf-jspdf-shim.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/06-score-modal-mobile.css?v=1789728037 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/03-vendor-sheetjs-xlsx.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/05-app-core.js?v=1789768123 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/02-vendor-sheetjs-xlsx.js?v=1788089272 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/04-vendor-docx.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/03-duty-rota.css?v=1788116922 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/07-app-main.js?v=1789383767 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/08-duty-rota.js?v=1788118204 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/02-anim-extra.css?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/06-app-marksheet-modal.js?v=1789705182 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/09-tt-constraints.js?v=1789332270 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/13-nav-groups.js?v=1789538210 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/12-subjects-hub.js?v=1788375884 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/11-teachers-hub.js?v=1789322121 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/10-tt-advanced.js?v=1789408880 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/15-exam-registry.js?v=1789717683 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/16-polish.js?v=1789678457 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/14-ui-extras.js?v=1789724254 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/session HTTP/1.1" 401 Unauthorized
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+[2026-09-19 01:05:45]  10.32.1.55       ?                   sse-connect             clients=3
+INFO:     10.32.1.55:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+[2026-09-19 01:06:42]  10.32.1.55       ?                   sse-disconnect          clients=2
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 01:07:35]  10.32.1.55       ?                   sse-disconnect          clients=1
+INFO:     10.32.2.161:0 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.32.2.161:0 - "GET /app HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/css/00-base.css?v=1788084170 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/00-pdf-jspdf-shim.js?v=1788084170 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/css/01-main.css?v=1789722973 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/css/04-mobile.css?v=1789722982 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/css/05-polish.css?v=1789678440 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/02-vendor-sheetjs-xlsx.js?v=1788089272 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/css/06-score-modal-mobile.css?v=1789728037 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/01-pdf-autotable-guard.js?v=1788084170 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/css/02-anim-extra.css?v=1788084170 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/05-app-core.js?v=1789768123 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/04-vendor-docx.js?v=1788084170 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/13-nav-groups.js?v=1789538210 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/03-vendor-sheetjs-xlsx.js?v=1788084170 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/14-ui-extras.js?v=1789724254 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/css/03-duty-rota.css?v=1788116922 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/06-app-marksheet-modal.js?v=1789705182 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/12-subjects-hub.js?v=1788375884 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/15-exam-registry.js?v=1789717683 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/07-app-main.js?v=1789383767 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/10-tt-advanced.js?v=1789408880 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/16-polish.js?v=1789678457 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/09-tt-constraints.js?v=1789332270 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/11-teachers-hub.js?v=1789322121 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /static/js/08-duty-rota.js?v=1788118204 HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/session HTTP/1.1" 401 Unauthorized
+INFO:     10.32.2.161:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 200 OK
+[2026-09-19 01:08:14]  10.32.2.161      ?                   sse-connect             clients=2
+INFO:     10.32.2.161:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 01:08:27]  10.32.2.161      Martinsmarta        login                   role=admin
+INFO:     10.32.2.161:0 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 01:10:18]  10.32.2.161      ?                   sse-disconnect          clients=1
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 01:18:59]  10.32.2.161      ?                   sse-connect             clients=2
+INFO:     10.32.2.161:0 - "GET /api/events HTTP/1.1" 200 OK
+[2026-09-19 01:19:00]  10.32.2.161      ?                   sse-disconnect          clients=1
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 01:37:11]  10.32.1.55       ?                   sse-connect             clients=2
+INFO:     10.32.1.55:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /app?r=3 HTTP/1.1" 200 OK
+[2026-09-19 01:37:15]  10.32.1.55       ?                   sse-disconnect          clients=1
+INFO:     10.32.1.55:0 - "GET /static/js/03-vendor-sheetjs-xlsx.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/01-main.css?v=1789770890 HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /static/css/00-base.css?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/05-app-core.js?v=1789770918 HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /static/js/00-pdf-jspdf-shim.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/02-vendor-sheetjs-xlsx.js?v=1788089272 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/01-pdf-autotable-guard.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/09-tt-constraints.js?v=1789332270 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/05-polish.css?v=1789678440 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/04-vendor-docx.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/03-duty-rota.css?v=1788116922 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/06-app-marksheet-modal.js?v=1789705182 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/06-score-modal-mobile.css?v=1789728037 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/08-duty-rota.js?v=1788118204 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/07-app-main.js?v=1789383767 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/12-subjects-hub.js?v=1788375884 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/16-polish.js?v=1789678457 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/13-nav-groups.js?v=1789538210 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/04-mobile.css?v=1789722982 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/14-ui-extras.js?v=1789724254 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/11-teachers-hub.js?v=1789322121 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/10-tt-advanced.js?v=1789408880 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/02-anim-extra.css?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/15-exam-registry.js?v=1789717683 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/session HTTP/1.1" 401 Unauthorized
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+[2026-09-19 01:37:18]  10.32.1.55       ?                   sse-connect             clients=2
+INFO:     10.32.1.55:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 01:39:10]  10.32.1.55       ?                   sse-disconnect          clients=1
+INFO:     10.32.1.55:0 - "GET /api/session HTTP/1.1" 401 Unauthorized
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+[2026-09-19 01:39:11]  10.32.1.55       ?                   sse-connect             clients=2
+INFO:     10.32.1.55:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /app HTTP/1.1" 200 OK
+[2026-09-19 01:41:31]  10.32.1.55       ?                   sse-disconnect          clients=1
+INFO:     10.32.1.55:0 - "GET /static/css/04-mobile.css?v=1789722982 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/00-base.css?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/05-polish.css?v=1789678440 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/06-score-modal-mobile.css?v=1789728037 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/01-pdf-autotable-guard.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/00-pdf-jspdf-shim.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/04-vendor-docx.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/03-vendor-sheetjs-xlsx.js?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/02-vendor-sheetjs-xlsx.js?v=1788089272 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/01-main.css?v=1789770890 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/06-app-marksheet-modal.js?v=1789705182 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/05-app-core.js?v=1789770918 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/03-duty-rota.css?v=1788116922 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/css/02-anim-extra.css?v=1788084170 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/07-app-main.js?v=1789383767 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/08-duty-rota.js?v=1788118204 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/14-ui-extras.js?v=1789724254 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/11-teachers-hub.js?v=1789322121 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/12-subjects-hub.js?v=1788375884 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/10-tt-advanced.js?v=1789408880 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/09-tt-constraints.js?v=1789332270 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/15-exam-registry.js?v=1789717683 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/13-nav-groups.js?v=1789538210 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /static/js/16-polish.js?v=1789678457 HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/session HTTP/1.1" 401 Unauthorized
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+[2026-09-19 01:41:33]  10.32.1.55       ?                   sse-connect             clients=2
+INFO:     10.32.1.55:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 01:57:35]  10.32.1.55       ?                   sse-disconnect          clients=1
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 06:39:37]  10.32.0.114      ?                   sse-disconnect          clients=0
+[2026-09-19 07:18:10]  10.32.0.114      ?                   sse-connect             clients=1
+INFO:     10.32.0.114:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:18:31]  10.32.2.161      ?                   sse-connect             clients=2
+INFO:     10.32.2.161:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:18:55]  10.32.2.161      ?                   sse-disconnect          clients=1
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:20:32]  10.32.2.161      Teacher             login                   role=teacher
+INFO:     10.32.2.161:0 - "POST /api/login HTTP/1.1" 200 OK
+[2026-09-19 07:20:33]  10.32.2.161      ?                   sse-connect             clients=2
+INFO:     10.32.2.161:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:23:35]  10.32.2.161      ?                   sse-disconnect          clients=1
+[2026-09-19 07:23:41]  10.32.0.114      Teacher             sse-connect             clients=2
+INFO:     10.32.0.114:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:26:07]  10.32.0.114      Teacher             sse-disconnect          clients=1
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:26:32]  10.32.1.55       Teacher             sse-connect             clients=2
+INFO:     10.32.1.55:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:26:51]  10.32.1.55       Teacher             sse-disconnect          clients=1
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:27:24]  10.32.2.161      Teacher             sse-connect             clients=2
+INFO:     10.32.2.161:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:29:07]  10.32.2.161      Teacher             sse-disconnect          clients=1
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:29:12]  10.32.1.55       Teacher             sse-connect             clients=2
+INFO:     10.32.1.55:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:34:17]  10.32.1.55       Teacher             sse-disconnect          clients=1
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:34:22]  10.32.1.55       Teacher             sse-connect             clients=2
+INFO:     10.32.1.55:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:35:21]  10.32.1.55       Teacher             sse-disconnect          clients=1
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:35:51]  10.32.1.55       Teacher             sse-connect             clients=2
+INFO:     10.32.1.55:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "POST /api/db/save HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:42:18]  10.32.1.55       Teacher             sse-disconnect          clients=1
+[2026-09-19 07:42:24]  10.32.0.114      Teacher             sse-connect             clients=2
+INFO:     10.32.0.114:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:42:51]  10.32.0.114      Teacher             sse-disconnect          clients=1
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:43:36]  10.32.0.114      Teacher             sse-connect             clients=2
+INFO:     10.32.0.114:0 - "GET /api/events HTTP/1.1" 200 OK
+[2026-09-19 07:43:48]  10.32.0.114      Teacher             sse-disconnect          clients=1
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:44:11]  10.32.0.114      Teacher             sse-connect             clients=2
+INFO:     10.32.0.114:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:44:37]  10.32.0.114      Teacher             sse-disconnect          clients=1
+INFO:     127.0.0.1:51030 - "GET /app HTTP/1.1" 200 OK
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:52:13]  10.32.0.114      Teacher             sse-connect             clients=2
+INFO:     10.32.0.114:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:52:30]  10.32.0.114      Teacher             sse-disconnect          clients=1
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:52:57]  10.32.2.161      Teacher             sse-connect             clients=2
+INFO:     10.32.2.161:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:53:17]  10.32.2.161      Teacher             sse-disconnect          clients=1
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:53:30]  10.32.0.114      Teacher             sse-connect             clients=2
+INFO:     10.32.0.114:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.0.114:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:53:52]  10.32.0.114      Teacher             sse-disconnect          clients=1
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:54:01]  10.32.1.55       Teacher             sse-connect             clients=2
+INFO:     10.32.1.55:0 - "GET /api/events HTTP/1.1" 200 OK
+[2026-09-19 07:54:05]  10.32.1.55       Teacher             sse-disconnect          clients=1
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:54:12]  10.32.2.161      Teacher             sse-connect             clients=2
+INFO:     10.32.2.161:0 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+[2026-09-19 07:54:15]  10.32.2.161      Teacher             sse-disconnect          clients=1
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.1.55:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified
+INFO:     10.32.2.161:0 - "GET /api/db HTTP/1.1" 304 Not Modified

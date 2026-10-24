@@ -1,0 +1,195 @@
+/* ═══════════════════════════════════════════════════════════════════
+   SCORE ENTRY MODAL — Mobile compact polish
+   Keeps all functionality/data intact, only visual density adjustments
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Base modal sizing (already in 04-mobile.css, refined) ───────── */
+@media (max-width: 768px) {
+  #ss_scoreModalOverlay {
+    padding: 0 !important;
+    align-items: flex-end !important;
+  }
+  #ss_scoreModalOverlay > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 90dvh !important; /* slightly less height for more breathing room */
+    border-radius: 16px 16px 0 0 !important;
+    margin: 0 !important;
+    padding: 14px 12px 16px !important; /* tighter vertical padding */
+    overflow-y: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  /* Drop the heavy full-screen backdrop blur on phones — it's a big
+     repaint cost that makes the whole modal (incl. buttons) lag */
+  #ss_scoreModalOverlay {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: rgba(0,0,0,0.7) !important;
+  }
+
+  /* ── Header: more compact ─────────────────────────────────────── */
+  #ss_scoreModalOverlay .btn-sm {
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+  #ss_scoreModalOverlay > div > div:first-child {
+    gap: 8px !important;
+    margin-bottom: 10px !important;
+  }
+  #ss_scoreModalOverlay > div > div:first-child > div:first-child > div:first-child {
+    font-size: 15px !important; /* was 17px */
+  }
+  #ss_scoreModalSubtitle {
+    font-size: 11px !important;
+    margin-top: 1px !important;
+  }
+
+  /* ── Subject grid: tighter ────────────────────────────────────── */
+  #ss_scoreRows {
+    gap: 6px !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* Compound (ENG/KIS) blocks side-by-side */
+  #ss_scoreRows > div:first-child {
+    gap: 6px !important;
+    margin-bottom: 6px !important;
+  }
+  #ss_scoreRows > div:first-child > div {
+    padding: 8px 10px !important;
+    border-radius: 8px !important;
+  }
+  #ss_scoreRows > div:first-child > div > div:first-child {
+    font-size: 9px !important;
+    margin-bottom: 4px !important;
+  }
+  #ss_scoreRows > div:first-child .form-grid,
+  #ss_scoreRows > div:first-child [style*="grid-template-columns"] {
+    gap: 4px !important;
+  }
+  #ss_scoreRows > div:first-child input[type="number"] {
+    padding: 5px 3px !important;
+    font-size: 13px !important;
+    border-radius: 5px !important;
+  }
+  #ss_scoreRows > div:first-child [id^="ss_rb_"] {
+    font-size: 9px !important;
+    margin-top: 3px !important;
+    min-height: 14px !important;
+  }
+
+  /* Simple subject cards: 2-col grid, compact */
+  #ss_scoreRows > div:last-child,
+  #ss_scoreRows > div:nth-child(2) {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 6px !important;
+  }
+  #ss_scoreRows > div:last-child > div,
+  #ss_scoreRows > div:nth-child(2) > div {
+    padding: 8px 8px !important;
+    border-radius: 8px !important;
+  }
+  #ss_scoreRows > div:last-child > div > div:first-child,
+  #ss_scoreRows > div:nth-child(2) > div > div:first-child {
+    font-size: 10px !important;
+    margin-bottom: 1px !important;
+  }
+  #ss_scoreRows > div:last-child > div > div:nth-child(2),
+  #ss_scoreRows > div:nth-child(2) > div > div:nth-child(2) {
+    font-size: 8px !important;
+    margin-bottom: 4px !important;
+  }
+  #ss_scoreRows > div:last-child input[type="number"],
+  #ss_scoreRows > div:nth-child(2) input[type="number"] {
+    padding: 5px 2px !important;
+    font-size: 13px !important;
+    border-radius: 5px !important;
+  }
+  #ss_scoreRows > div:last-child [id^="ss_rb_"],
+  #ss_scoreRows > div:nth-child(2) [id^="ss_rb_"] {
+    font-size: 9px !important;
+    margin-top: 3px !important;
+    min-height: 14px !important;
+  }
+
+  /* ── Total bar: slimmer ───────────────────────────────────────── */
+  #ss_scoreTotalBar {
+    padding: 6px 10px !important;
+    margin-bottom: 8px !important;
+    font-size: 12px !important;
+    border-radius: 6px !important;
+  }
+
+  /* ── Action bar: STICKY at bottom, always visible ─────────────── */
+  /* Cancel + Save share ONE row side-by-side (no wrap, equal flex-grow).
+     Previously flex-basis 45%/55% + gap 8px summed > 100% → Save wrapped. */
+  #ss_scoreModalOverlay > div > div:last-child {
+    position: sticky !important;
+    bottom: 0 !important;
+    background: linear-gradient(to top, var(--surface) 60%, transparent) !important;
+    padding-top: 8px !important;
+    margin-top: auto !important;
+    z-index: 10 !important;
+    flex-wrap: nowrap !important;
+    gap: 8px !important;
+    justify-content: stretch !important;
+  }
+  #ss_scoreModalOverlay > div > div:last-child .btn {
+    padding: 10px 16px !important;
+    font-size: 12px !important;
+    border-radius: 8px !important;
+    min-width: 0 !important; /* allow shrink so both fit on one line */
+    flex: 1 1 0 !important;
+    touch-action: manipulation !important; /* kill 300ms tap delay lag */
+    -webkit-tap-highlight-color: transparent !important;
+  }
+  #ss_scoreModalOverlay > div > div:last-child .btn-primary {
+    flex: 1 1 0 !important; /* equal split with Cancel; gap already subtracted */
+    font-weight: 700 !important;
+  }
+}
+
+/* ── Extra small phones (≤400px) ────────────────────────────────── */
+@media (max-width: 400px) {
+  #ss_scoreModalOverlay > div {
+    max-height: 93dvh !important;
+    padding: 12px 10px 12px !important;
+  }
+  #ss_scoreRows > div:first-child > div {
+    padding: 6px 8px !important;
+  }
+  #ss_scoreRows > div:first-child input[type="number"] {
+    font-size: 12px !important;
+    padding: 4px 2px !important;
+  }
+  #ss_scoreRows > div:last-child > div,
+  #ss_scoreRows > div:nth-child(2) > div {
+    padding: 6px 6px !important;
+  }
+  #ss_scoreRows > div:last-child > div > div:first-child,
+  #ss_scoreRows > div:nth-child(2) > div > div:first-child {
+    font-size: 9px !important;
+  }
+  #ss_scoreRows > div:last-child input[type="number"],
+  #ss_scoreRows > div:nth-child(2) input[type="number"] {
+    font-size: 12px !important;
+    padding: 4px 2px !important;
+  }
+  #ss_scoreModalOverlay > div > div:last-child .btn {
+    padding: 9px 12px !important;
+    font-size: 11px !important;
+  }
+}
+
+/* ── Landscape phone: even more compact ─────────────────────────── */
+@media (max-width: 768px) and (orientation: landscape) {
+  #ss_scoreModalOverlay > div {
+    max-height: 95dvh !important;
+    padding: 10px 12px 12px !important;
+  }
+  #ss_scoreRows > div:last-child,
+  #ss_scoreRows > div:nth-child(2) {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}

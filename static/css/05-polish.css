@@ -1,0 +1,335 @@
+/* ═══════════════════════════════════════════════════════════════════
+   SANTAPRIS POLISH LAYER — Visual delight, zero functional changes
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── PAGE ENTRANCE CHOREOGRAPHY ──────────────────────────────────── */
+.page.active,
+.dashboard-always.active,
+.modal-page.open {
+  animation: pageEnter 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+@keyframes pageEnter {
+  from { opacity: 0; transform: translateY(12px) scale(0.995); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Staggered reveal for dashboard sections */
+.stat-grid > * { opacity: 0; transform: translateY(16px); animation: cardPop 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+.stat-grid > *:nth-child(1) { animation-delay: 0.05s; }
+.stat-grid > *:nth-child(2) { animation-delay: 0.1s; }
+.stat-grid > *:nth-child(3) { animation-delay: 0.15s; }
+.stat-grid > *:nth-child(4) { animation-delay: 0.2s; }
+
+.card { opacity: 0; transform: translateY(12px); animation: cardPop 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+#dashSubjBars { animation-delay: 0.25s; }
+#dashTop5 { animation-delay: 0.3s; }
+#dashGradeBars { animation-delay: 0.35s; }
+#dashAlerts { animation-delay: 0.05s; }
+
+@keyframes cardPop {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── STAT CARD NUMBER COUNT-UP ───────────────────────────────────── */
+.animated-counter {
+  transition: none; /* JS handles the count-up */
+}
+.stat-card:hover .animated-counter {
+  transform: scale(1.02);
+  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ── BAR FILL ANIMATION ON REVEAL ────────────────────────────────── */
+.bar-fill {
+  width: 0 !important;
+  transition: width 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.3s;
+}
+.card:not(:has(.bar-fill[style*="width: 0"])) .bar-fill,
+.bar-row.visible .bar-fill {
+  /* width set inline by renderDashboard — transition kicks in */
+}
+
+/* Force re-animate bars when grade filter changes */
+#dashGradeF:focus + .card-body .bar-fill,
+#dashTop5G:focus + .card-body .bar-fill {
+  width: 0;
+  transition: none;
+  /* next paint picks up inline width */
+}
+
+/* ── NAV ITEM MICRO-INTERACTIONS ─────────────────────────────────── */
+.nav-item {
+  position: relative;
+  overflow: hidden;
+}
+.nav-item::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, var(--jungle-glow), var(--jungle-bright));
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.nav-item:hover::before,
+.nav-item.active::before {
+  transform: scaleY(1);
+  transform-origin: top;
+}
+.nav-item .icon {
+  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.nav-item:hover .icon {
+  transform: translateX(3px) scale(1.1);
+}
+
+/* ── BUTTON TACTILE FEEDBACK ─────────────────────────────────────── */
+.btn {
+  position: relative;
+  overflow: hidden;
+}
+.btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.15) 0%, transparent 70%);
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.3s, transform 0.4s;
+}
+.btn:active::after {
+  opacity: 1;
+  transform: scale(2.5);
+  transition: 0s;
+}
+.btn-primary:active,
+.btn-pdf:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* ── TABLE ROW REVEAL ────────────────────────────────────────────── */
+.table-wrap tbody tr {
+  opacity: 0;
+  transform: translateX(-8px);
+  animation: rowReveal 0.35s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+.table-wrap tbody tr:nth-child(1)  { animation-delay: 0.02s; }
+.table-wrap tbody tr:nth-child(2)  { animation-delay: 0.04s; }
+.table-wrap tbody tr:nth-child(3)  { animation-delay: 0.06s; }
+.table-wrap tbody tr:nth-child(4)  { animation-delay: 0.08s; }
+.table-wrap tbody tr:nth-child(5)  { animation-delay: 0.1s; }
+.table-wrap tbody tr:nth-child(6)  { animation-delay: 0.12s; }
+.table-wrap tbody tr:nth-child(7)  { animation-delay: 0.14s; }
+.table-wrap tbody tr:nth-child(8)  { animation-delay: 0.16s; }
+.table-wrap tbody tr:nth-child(9)  { animation-delay: 0.18s; }
+.table-wrap tbody tr:nth-child(10) { animation-delay: 0.2s; }
+.table-wrap tbody tr:nth-child(n+11) { animation-delay: 0.22s; }
+
+@keyframes rowReveal {
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* ── TOAST ENTRANCE (enhanced) ───────────────────────────────────── */
+.toast.show {
+  animation: toastSlide 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+@keyframes toastSlide {
+  from { opacity: 0; transform: translateY(20px) scale(0.95); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ── MODAL BACKDROP FADE ─────────────────────────────────────────── */
+#loginOverlay,
+[id$="Modal"] > div:first-child,
+[id$="Overlay"] {
+  animation: backdropFade 0.25s ease-out forwards;
+}
+@keyframes backdropFade {
+  from { opacity: 0; backdrop-filter: blur(0); }
+  to   { opacity: 1; backdrop-filter: blur(6px); }
+}
+
+/* ── LOGIN CARD POP ──────────────────────────────────────────────── */
+.login-card {
+  animation: loginPop 0.55s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+@keyframes loginPop {
+  from { opacity: 0; transform: translateY(24px) scale(0.96); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ── SEARCH SUGGESTIONS DROPDOWN ─────────────────────────────────── */
+#searchSuggestions {
+  animation: dropdownSlide 0.18s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  transform-origin: top center;
+}
+@keyframes dropdownSlide {
+  from { opacity: 0; transform: scaleY(0.92) translateY(-4px); }
+  to   { opacity: 1; transform: scaleY(1) translateY(0); }
+}
+
+/* ── CARD HOVER DEPTH ────────────────────────────────────────────── */
+.card {
+  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+              border-color 0.2s;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(46,139,87,0.15);
+}
+
+/* ── STAT CARD HOVER GLOW ────────────────────────────────────────── */
+.stat-card {
+  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+              border-color 0.2s;
+}
+.stat-card:hover {
+  transform: translateY(-4px);
+}
+.stat-card.blue:hover  { box-shadow: 0 12px 40px rgba(200,23,74,0.25), 0 0 0 1px rgba(200,23,74,0.3); }
+.stat-card.gold:hover  { box-shadow: 0 12px 40px rgba(232,226,220,0.15), 0 0 0 1px rgba(232,226,220,0.25); }
+.stat-card.green:hover { box-shadow: 0 12px 40px rgba(46,139,87,0.3),  0 0 0 1px rgba(46,139,87,0.4); }
+.stat-card.rose:hover  { box-shadow: 0 12px 40px rgba(200,23,74,0.3),  0 0 0 1px rgba(200,23,74,0.4); }
+
+/* ── FOCUS RINGS (accessibility + polish) ────────────────────────── */
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(46,139,87,0.45), 0 0 0 5px rgba(27,94,59,0.3);
+  border-radius: var(--radius-sm);
+}
+
+/* ── SCROLLBAR PERSONALITY ───────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--navy-mid); }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--jungle-glow), var(--jungle-bright));
+  border-radius: 3px;
+  border: 1px solid var(--navy-mid);
+}
+::-webkit-scrollbar-thumb:hover { background: linear-gradient(180deg, var(--jungle-light), var(--jungle-glow)); }
+::-webkit-scrollbar-corner { background: var(--navy-mid); }
+
+/* ── SELECT DROPDOWN STYLING ─────────────────────────────────────── */
+select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2352D98A' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 36px;
+  appearance: none;
+}
+
+/* ── EMPTY STATE CHARM ───────────────────────────────────────────── */
+.empty-state {
+  animation: emptyPulse 3s ease-in-out infinite;
+}
+@keyframes emptyPulse {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50%      { opacity: 0.5; transform: scale(1.02); }
+}
+.empty-icon {
+  display: inline-block;
+  animation: iconFloat 2.5s ease-in-out infinite;
+}
+@keyframes iconFloat {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-4px); }
+}
+
+/* ── GRADE BAR CARDS ─────────────────────────────────────────────── */
+#dashGradeBars > div {
+  opacity: 0;
+  transform: translateY(8px) scale(0.98);
+  animation: gradeCardIn 0.35s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+#dashGradeBars > div:nth-child(1)  { animation-delay: 0.02s; }
+#dashGradeBars > div:nth-child(2)  { animation-delay: 0.04s; }
+#dashGradeBars > div:nth-child(3)  { animation-delay: 0.06s; }
+#dashGradeBars > div:nth-child(4)  { animation-delay: 0.08s; }
+#dashGradeBars > div:nth-child(5)  { animation-delay: 0.1s; }
+#dashGradeBars > div:nth-child(6)  { animation-delay: 0.12s; }
+#dashGradeBars > div:nth-child(7)  { animation-delay: 0.14s; }
+#dashGradeBars > div:nth-child(8)  { animation-delay: 0.16s; }
+#dashGradeBars > div:nth-child(9)  { animation-delay: 0.18s; }
+#dashGradeBars > div:nth-child(10) { animation-delay: 0.2s; }
+#dashGradeBars > div:nth-child(n+11) { animation-delay: 0.22s; }
+
+@keyframes gradeCardIn {
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+#dashGradeBars > div:hover {
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+  border-color: rgba(46,139,87,0.35);
+  transition: all 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ── TOP 5 LIST ITEM HOVER ───────────────────────────────────────── */
+#dashTop5 > div {
+  transition: transform 0.18s, background 0.18s, border-color 0.18s;
+  border-radius: 8px;
+  margin: 0 -8px;
+  padding: 8px;
+}
+#dashTop5 > div:hover {
+  transform: translateX(6px);
+  background: rgba(46,139,87,0.08);
+  border-color: rgba(46,139,87,0.2);
+}
+
+/* ── SUBJECT BAR ROW HOVER ───────────────────────────────────────── */
+.bar-row {
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin: 4px -8px;
+  transition: background 0.15s, transform 0.15s;
+}
+.bar-row:hover {
+  background: rgba(46,139,87,0.06);
+  transform: translateX(4px);
+}
+.bar-row:hover .bar-fill {
+  filter: brightness(1.15);
+}
+
+/* ── ALERT BANNER SLIDE ──────────────────────────────────────────── */
+#dashAlerts > div {
+  animation: alertSlide 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+@keyframes alertSlide {
+  from { opacity: 0; transform: translateY(-12px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ── MOBILE DRAWER SLIDE (already exists, enhanced) ──────────────── */
+#mobileSidebar {
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+#mobileDrawerOverlay {
+  transition: opacity 0.2s, backdrop-filter 0.2s;
+}
+
+/* ── QUICK SEARCH OVERLAY ────────────────────────────────────────── */
+#quickSearchOverlay > div {
+  animation: modalPop 0.25s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+@keyframes modalPop {
+  from { opacity: 0; transform: translateY(-16px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ── REDUCED MOTION RESPECT ──────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

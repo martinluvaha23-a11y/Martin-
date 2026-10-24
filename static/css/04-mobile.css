@@ -1,0 +1,183 @@
+/* ═══════════════════════════════════════════════════════════════
+   MOBILE / PHONE RESPONSIVENESS — guaranteed in <head>, not JS-injected.
+   All rules live inside max-width media queries, so desktop mode (≥901px)
+   is completely unaffected. Additive only: no data, no markup changes.
+   ═══════════════════════════════════════════════════════════════ */
+
+@media (max-width: 900px) {
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  /* ── Layout: sidebar off, single column, full-bleed pages ── */
+  .layout { grid-template-columns: 1fr !important; }
+  .sidebar { display: none !important; }
+  .main { padding: 16px 12px 86px !important; overflow-y: auto; }
+
+  /* Modal pages (Enter Scores, Students, Reports, …) span the whole screen */
+  .modal-page {
+    left: 0 !important; right: 0 !important; top: 56px !important; bottom: 0 !important;
+    width: 100% !important; max-width: 100vw !important;
+    padding: 14px 12px 96px !important;
+  }
+  /* …and an OPEN page is a true full-screen takeover (no navbar/dashboard) */
+  .modal-page.open {
+    top: 0 !important; z-index: 7950 !important;
+    padding-top: 14px !important;
+  }
+
+  /* ── Navbar ── */
+  .navbar { height: 56px; padding: 0 10px; gap: 8px; }
+  #mobileMenuBtn { display: flex; align-items: center; justify-content: center; font-size: 24px; }
+  .brand-logo-wrap { width: 38px; height: 38px; }
+  .brand-logo-wrap img { width: 34px; height: 34px; }
+  .brand-name { font-size: 12.5px !important; }
+  .brand-sub, .brand-motto, .nav-stats, .nav-user-name { display: none !important; }
+  .nav-user-block { margin-left: 4px; padding-left: 4px; border-left: none; }
+  .nav-logout-btn { padding: 5px 9px; font-size: 10.5px; }
+  #searchWrap { flex: 1; min-width: 0 !important; }
+
+  /* ── Page headers ── */
+  .page-header { flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+  .page-title { font-size: 18px !important; }
+  .page-sub { font-size: 10.5px !important; }
+  .page-actions { width: 100%; flex-wrap: wrap; }
+
+  /* ── Cards ── */
+  .card-body { padding: 12px 10px !important; }
+  .card-header { padding: 11px 14px !important; }
+  .card-title { font-size: 10px; letter-spacing: .08em; }
+  .stat-card { padding: 16px 14px; }
+  .stat-num { font-size: 26px; }
+  .stat-grid, .stats-grid, .dashboard-grid { grid-template-columns: 1fr 1fr !important; gap: 10px !important; }
+  .grid-3, .grid-4 { grid-template-columns: 1fr 1fr !important; }
+  .grid-2 { grid-template-columns: 1fr !important; }
+
+  /* ── Forms & buttons ── */
+  .form-grid { grid-template-columns: 1fr !important; }
+  .form-actions { flex-wrap: wrap; }
+  .btn { padding: 10px 14px; }
+  .btn-sm { padding: 7px 12px; }
+  input[type="number"], input[type="text"], input[type="date"], select, textarea { font-size: 16px !important; }
+  .filter-bar input, .filter-bar select { width: 100% !important; min-width: 0 !important; max-width: none !important; }
+  .checkbox-item, .subj-chip { padding: 8px 13px; }
+
+  /* ── Tables: horizontal scroll so nothing is clipped ── */
+  .table-wrap, table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .student-name-cell { min-width: 108px; max-width: 132px; }
+  .student-adm-cell { width: 62px; }
+
+  /* ── Class score entry grid: tighter cells on phones ── */
+  #ex_classTable th, #ex_classTable td { padding: 4px 4px; }
+  #ex_classTable th.subj-header { min-width: 64px; }
+  .score-input-cell { width: 50px; font-size: 11px; padding: 4px 3px; }
+  .score-input-cell[data-parent] { width: 40px; font-size: 11px; }
+  .score-input-cell[readonly] { width: 46px; font-size: 11px; }
+
+  /* ── Bottom sheets: exam picker + score modal ── */
+  #ss_examPickerOverlay, #ss_scoreModalOverlay { align-items: flex-end !important; padding: 0; }
+  #ss_examPickerOverlay > div, #ss_scoreModalOverlay > div {
+    width: 100% !important; max-width: 100% !important;
+    max-height: 92dvh !important; overflow-y: auto !important;
+    border-radius: 16px 16px 0 0 !important;
+    margin: 0 !important; padding: 16px 12px 24px !important;
+  }
+  #ss_scoreRows > div { grid-template-columns: repeat(2, 1fr) !important; }
+
+  /* ── Fixed-position dropdowns & overlays fit the screen ── */
+  #searchSuggestions { left: 8px !important; right: 8px !important; min-width: 0 !important; max-width: calc(100vw - 16px) !important; }
+  #quickSearchOverlay > div { margin: 10px !important; max-height: calc(100dvh - 20px); overflow-y: auto; }
+
+  /* ── Lower Primary / mean-score grids ── */
+  #mtm_gradeGrid { grid-template-columns: repeat(auto-fit, minmax(74px, 1fr)) !important; }
+
+  /* ── Duty rota (dr-) fields stack full width ── */
+  .dr-form-grid { flex-direction: column !important; align-items: stretch !important; }
+  .dr-mid-dates { flex-direction: column !important; align-items: stretch !important; }
+  .dr-field input, .dr-field select, .dr-multi { width: 100% !important; min-width: 0 !important; }
+  .dr-multi-menu { width: auto !important; left: 6px !important; right: 6px !important; }
+  .dr-export-row { align-items: stretch !important; }
+  .dr-export-row .dr-btn, .dr-export-row select { flex: 1 1 46%; }
+
+  /* ── Bottom tab bar: safe-area aware ── */
+  #mobileBottomBar { height: auto; padding-bottom: env(safe-area-inset-bottom, 0px); }
+  .toast { left: 12px; right: 12px; bottom: calc(76px + env(safe-area-inset-bottom, 0px)); justify-content: center; text-align: center; }
+
+  /* ── Login card fits small screens ── */
+  #loginOverlay { padding: 14px; align-items: center; overflow-y: auto; }
+  .login-card { padding: 30px 20px 26px; max-width: 100%; }
+
+  /* Hide dashboard-only decorations */
+  .page-header-decoration { display: none; }
+}
+
+@media (max-width: 900px) {
+  body.mob-fullscreen #mobileBottomBar { display: none !important; }
+  body.mob-fullscreen .main,
+  body.mob-fullscreen .modal-page { padding-bottom: 24px !important; }
+}
+
+@media (max-width: 480px) {
+  .modal-page { padding: 10px 8px 92px !important; }
+  .lt-cols { grid-template-columns: 1fr !important; }
+  .stats-grid, .dashboard-grid, .stat-grid { grid-template-columns: 1fr !important; }
+  .main { padding: 12px 10px 84px !important; }
+  .navbar { padding: 0 8px; }
+  .brand-name { display: none; }
+  .stat-num { font-size: 24px; }
+  .login-card { padding: 24px 16px 22px; }
+  .login-title { font-size: 19px; }
+  .page-title { font-size: 17px !important; }
+  .page-actions .btn { flex: 1 1 auto; }
+  #mobileBottomBar { height: 56px; }
+  .mob-tab { min-width: 48px; padding: 4px 6px; }
+  .mob-tab .mob-icon { font-size: 18px; }
+  #ss_scoreRows > div { grid-template-columns: repeat(2, 1fr) !important; }
+}
+
+@media (max-width: 360px) {
+  .stat-grid, .stats-grid, .dashboard-grid { grid-template-columns: 1fr !important; gap: 8px !important; }
+  .nav-logout-btn { padding: 5px 7px; font-size: 10px; }
+  .score-input-cell { width: 44px; }
+  .score-input-cell[data-parent] { width: 36px; }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   SCORE ENTRY page — phone tables: component columns stay compact and
+   the per-learner Save button sticks to the right edge, so ENG/KIS
+   sub-columns (GRA/COMP, PP1/PP2, LUG/INS) are reachable together
+   with Save without losing it off-screen.
+   ═══════════════════════════════════════════════════════════════ */
+@media (max-width: 900px) {
+  #se_gridWrap .table-wrap table { font-size: 11px; }
+  /* The global phone rule flattens tables to display:block, which breaks
+     column tracks and lets sticky cells float over inputs. Restore real
+     table layout here: the wrapper scrolls, columns keep their tracks. */
+  #se_gridWrap .table-wrap { overflow-x: auto !important; }
+  #se_gridWrap .table-wrap table {
+    display: table !important;
+    width: max-content !important;
+    min-width: 100% !important;
+  }
+  #se_gridWrap th, #se_gridWrap td { padding: 4px 5px !important; }
+  #se_gridWrap .student-name-cell { min-width: 96px; max-width: 120px; font-size: 11px; }
+  #se_gridWrap .student-adm-cell { width: 52px; }
+  #se_gridWrap .score-input-cell { width: 46px; font-size: 12px; padding: 4px 2px; }
+  #se_gridWrap th.subj-header, #se_gridWrap th { min-width: 0; font-size: 10px; }
+  /* Sticky per-learner Save column (last column) */
+  #se_gridWrap thead th:last-child,
+  #se_gridWrap tbody td:last-child {
+    position: sticky !important; right: 0;
+    background: var(--surface-2) !important;
+    box-shadow: -2px 0 8px rgba(0,0,0,0.45);
+    z-index: 3;
+  }
+  #se_gridWrap tbody td:last-child .btn { padding: 6px 10px !important; font-size: 11px !important; white-space: nowrap; }
+  /* Fit ENG/KIS component pairs without sideways scrolling: drop Adm No,
+     tighten cells/inputs on the Score Entry grids. */
+  #se_gridWrap th:nth-child(3),
+  #se_gridWrap td.student-adm-cell { display: none !important; }
+  #se_gridWrap th, #se_gridWrap td { padding: 3px 3px !important; }
+  #se_gridWrap .score-input-cell { width: 40px; font-size: 12px; padding: 4px 1px; }
+  #se_gridWrap .student-name-cell { min-width: 84px; max-width: 110px; font-size: 11px; }
+  #se_gridWrap [id^="se_prev_"] { min-width: 0 !important; font-size: 9px !important; }
+}
